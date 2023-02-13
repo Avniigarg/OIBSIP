@@ -1,0 +1,143 @@
+a:link{
+    color:black ;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a.header{
+    color: black;
+    background-color: transparent;
+    padding: 70px;
+    text-decoration: none;
+    }
+    
+a:active {
+    color: rgb(233, 183, 84);
+    background-color: transparent;
+    text-decoration: underline;
+        }
+.center{
+    text-align: center;
+
+}
+.image
+{
+    display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+    filter: blur(8px);
+-webkit-filter: blur(8px);
+
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: moveble;
+    background-size: cover;
+    }
+
+.container 
+    {
+    position: relative;
+    text-align: center;
+    color: rgb(5, 4, 4);
+    }
+
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.box {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.min-content 
+{
+    width: min-content;
+    border: 2px line rgb(11, 12, 13);
+    font-size: 17px;
+}
+p 
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 3px;
+    margin-inline-end: 4px;
+}
+
+h1 {
+    background-color: #EFEFEF;
+    opacity: .6;
+    font-style: oblique;
+}
+
+.blog{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #EFEFEF;
+    padding: 60px 0;
+    }
+
+.blog__header
+{
+    margin-bottom: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.blog__content
+{
+    display: flex;
+    justify-content: center;
+}
+
+.blog__article
+{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFFFF;
+    padding: 20px;
+    margin: 0 35px;
+}
+
+.article__header
+{
+    width: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.article__image
+{
+    margin: 24px 0;
+    width:325px;
+    height:216px;
+}
+
+.article__text
+{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
